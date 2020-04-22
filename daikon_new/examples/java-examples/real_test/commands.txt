@@ -1,0 +1,6 @@
+javac -cp .:$(/home/changhyeon/test/DefectRepairing_docker/jqf/scripts/classpath.sh):./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar ComplexTest.java ComplexGenerator.java
+
+
+/home/changhyeon/test/DefectRepairing_docker/jqf/bin/jqf-zest -c .:$(/home/changhyeon/test/DefectRepairing_docker/jqf/scripts/classpath.sh):./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar ComplexTest
+ 
+

@@ -45,12 +45,7 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>P</td>
     <td>C</td>
     <td>I</td>
-    <td>P</td>
-    <td>C</td>
-    <td>I</td>
-    <td>P</td>
-    <td>C</td>
-    <td>I</td>
+
   </tr>
   <tr>
     <td>Chart</td>
@@ -133,6 +128,7 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>84</td>
     <td>0</td>
   </tr>
+  <tr>
     <td>Time</td>
     <td>2</td>
     <td>0</td>
@@ -158,7 +154,39 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>27</td>
     <td>27</td>
     <td>0</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>22</td>
+    <td>5</td>
+    <td>17</td>
+    <td>18</td>
+    <td>1</td>
+    <td>17</td>
+    <td>29</td>
+    <td>5</td>
+    <td>24</td>
+    <td>40</td>
+    <td>0</td>
+    <td>40</td>
+    <td>21</td>
+    <td>15</td>
+    <td>6</td>
+    <td>9</td>
+    <td>3</td>
+    <td>6</td>
+    <td>139</td>
+    <td>29</td>
+    <td>110</td>
+    <td>194</td>
+    <td>194</td>
+    <td>0</td>
+
+
+  </tr>
 </table>
-*P = Patches, C = Correct Patches, I = Incorrect Patches
+
+
+* P = Patches, C = Correct Patches, I = Incorrect Patches
 
 

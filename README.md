@@ -21,7 +21,7 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
 
 
 
-| Identifier      | Project name               | Number of bugs | Active bug ids      | Deprecated bug ids (\*) |
+| Identifier      || Project name               | Number of bugs | Active bug ids      | Deprecated bug ids (\*) |
 |-----------------|----------------------------|---------------:|---------------------|-------------------------|
 | Chart           | jfreechart                 |       26       | 1-26                | None                    |
 | Cli             | commons-cli                |       39       | 1-5,7-40            | 6                       |

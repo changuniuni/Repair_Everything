@@ -8,40 +8,106 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
 !! Please summarize the statistics!!
 !! Project, # of correct patches, # of incorrect patches !!    
 
-
-
 <table>
-       <thead>
-           <tr>
-               <th rowspan=2>Project Name</th>
-               <th>jGenprog</th>
-               <th>jKali</th>
-	       <th>Nopol2015</th>
-	       <th>Nopol2017</th>
-	       <th>ACS</th>
-	       <th>HDRepair</th>
-	       <th>Total(Generated)</th>
-	       <th>Developer Pathes</th>
-	    </tr>
-       </thead>
-       <tbody>
-           <tr>
-               <td>P</td>
-               <td>C</td>
-               <td>I</td>
-           </tr>
-           <tr>
-               <td>L3 Name B</td>
-           </tr>
-           <tr>
-               <td rowspan=2>L2 Name B</td>
-               <td>L3 Name C</td>
-           </tr>
-           <tr>
-               <td>L3 Name D</td>
-           </tr>
-       </tbody>
-</table> 
+  <tr>
+    <th rowspan="2">project name</th>
+    <th colspan="3">jGenprog</th>
+    <th colspan="3">Nopol2017</th>
+    <th colspan="3">ACS</th>
+    <th colspan="3">HDRepair</th>
+    <th colspan="3">Total(Generated)</th>
+    <th colspan="3">Developer Patches</th>
+  </tr>
+  <tr>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+    <td>P</td>
+    <td>C</td>
+    <td>I</td>
+  </tr>
+  <tr>
+    <td>Chart</td>
+    <td>6</td>
+    <td>0</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>6</td>
+    <td>6</td>
+    <td>1</td>
+    <td>5</td>
+    <td>6</td>
+    <td>0</td>
+    <td>6</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>26</td>
+    <td>3</td>
+    <td>23</td>
+    <td>25</td>
+    <td>25</td>
+    <td>0</td>
+    <td>Lang</td>
+    <td>6</td>
+    <td>0</td>
+    <td>6</td>
+    <td>Math</td>
+    <td>Time</td>
+    <td>Total</td>
+
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 \* P = Patches, C = Correct Patches, I = Incorrect Patches
 
 

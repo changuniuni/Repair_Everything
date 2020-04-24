@@ -153,7 +153,7 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>27</td>
     <td>0</td>
   </tr>
-  <tr>
+  <tr style="border-top :1px solid">
     <td>Total</td>
     <td>22</td>
     <td>5</td>

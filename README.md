@@ -5,8 +5,6 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
 * "Identifying Patch Correctness in Test-Based Program Repair" Yingfei Xiong, Xinyuan Liu, Muhan Zeng, Lu Zhang, Gang Huang, ICSE 2018 [[download]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8453152)
 
 ###
-!! Please summarize the statistics!!
-!! Project, # of correct patches, # of incorrect patches !!    
 
 <table>
   <tr>
@@ -156,7 +154,7 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>0</td>
   </tr>
   <tr>
-    <td style="border:solid;">Total</td>
+    <td>Total</td>
     <td>22</td>
     <td>5</td>
     <td>17</td>

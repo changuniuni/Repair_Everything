@@ -10,8 +10,10 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
 
 <table>
   <tr>
-    <th rowspan="2">project name</th>
+    <th rowspan="2">Project name</th>
     <th colspan="3">jGenprog</th>
+    <th colspan="3">jKali</th>
+    <th colspan="3">Nopol2015</th>
     <th colspan="3">Nopol2017</th>
     <th colspan="3">ACS</th>
     <th colspan="3">HDRepair</th>
@@ -76,38 +78,87 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>25</td>
     <td>25</td>
     <td>0</td>
+  </tr>
+  <tr>
     <td>Lang</td>
-    <td>6</td>
     <td>0</td>
-    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>7</td>
+    <td>3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>4</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>15</td>
+    <td>4</td>
+    <td>11</td>
+    <td>58</td>
+    <td>58</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td>Math</td>
+    <td>14</td>
+    <td>5</td>
+    <td>9</td>
+    <td>10</td>
+    <td>1</td>
+    <td>9</td>
+    <td>15</td>
+    <td>1</td>
+    <td>14</td>
+    <td>22</td>
+    <td>0</td>
+    <td>22</td>
+    <td>15</td>
+    <td>11</td>
+    <td>4</td>
+    <td>7</td>
+    <td>2</td>
+    <td>5</td>
+    <td>83</td>
+    <td>20</td>
+    <td>63</td>
+    <td>84</td>
+    <td>84</td>
+    <td>0</td>
+  </tr>
     <td>Time</td>
-    <td>Total</td>
-
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+    <td>2</td>
+    <td>0</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>8</td>
+    <td>0</td>
+    <td>8</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>15</td>
+    <td>2</td>
+    <td>13</td>
+    <td>27</td>
+    <td>27</td>
+    <td>0</td>
 </table>
-\* P = Patches, C = Correct Patches, I = Incorrect Patches
+*P = Patches, C = Correct Patches, I = Incorrect Patches
 
 

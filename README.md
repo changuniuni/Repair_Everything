@@ -176,9 +176,9 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
+    <td>56</td>
+    <td>2</td>
+    <td>54</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -204,9 +204,9 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -231,9 +231,9 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>9</td>
     <td>3</td>
     <td>6</td>
-    <td>139</td>
-    <td>29</td>
-    <td>110</td>
+    <td>197</td>
+    <td>32</td>
+    <td>165</td>
     <td>194</td>
     <td>194</td>
     <td>0</td>

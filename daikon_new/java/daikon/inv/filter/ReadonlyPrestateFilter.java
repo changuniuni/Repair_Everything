@@ -18,7 +18,7 @@ public class ReadonlyPrestateFilter extends InvariantFilter {
   }
 
   /** Boolean. If true, ReadonlyPrestateFilter is initially turned on. */
-  public static boolean dkconfig_enabled = true;
+  public static boolean dkconfig_enabled = false;
 
   public ReadonlyPrestateFilter() {
     isOn = dkconfig_enabled;

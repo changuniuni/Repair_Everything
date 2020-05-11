@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
+
 import org.apache.commons.math3.complex.*;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
 import java.util.*;  //
-
 //import org.apache.commons.math3.TestUtils;
 //import org.apache.commons.math3.exception.NullArgumentException;
 import org.apache.commons.math3.util.FastMath;
@@ -32,10 +32,20 @@ import org.junit.runner.RunWith; //
 import com.pholser.junit.quickcheck.*; //
 import com.pholser.junit.quickcheck.generator.*; //
 import edu.berkeley.cs.jqf.fuzz.*;  //
+import java.lang.ProcessBuilder;
+
+import java.io.*;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import edu.berkeley.cs.jqf.fuzz.junit.GuidedFuzzing;
+import org.junit.runner.Result;
+
 
 
 @RunWith(JQF.class)
-public class ComplexTest {
+public class ComplexTest{
 
     private double inf = Double.POSITIVE_INFINITY;
     private double neginf = Double.NEGATIVE_INFINITY;
@@ -67,17 +77,17 @@ public class ComplexTest {
         //assertEquals( x.getImaginary(),x.getImaginary());
     }
 
-    @Fuzz
-    public void testConstructorNaN(@From(ComplexGenerator.class)Complex x) {
-	Complex z = new Complex(x.getReal(), Double.NaN);
-	assertTrue(z.isNaN());
-
-	z = new Complex(nan, x.getImaginary());
-	assertTrue(z.isNaN());
-
-	//z = new Complex(3.0, 4.0);
-	assertFalse(x.isNaN());
-    }
+//    @Fuzz
+//    public void testConstructorNaN(@From(ComplexGenerator.class)Complex x) {
+//	Complex z = new Complex(x.getReal(), Double.NaN);
+//	assertTrue(z.isNaN());
+//
+//	z = new Complex(nan, x.getImaginary());
+//	assertTrue(z.isNaN());
+//
+//	//z = new Complex(3.0, 4.0);
+//	assertFalse(x.isNaN());
+//    }
 
 
     @Fuzz 
@@ -88,22 +98,22 @@ public class ComplexTest {
    
     }
     
-    @Fuzz 
-    public void testAbsNaN(@From(ComplexGenerator.class)Complex x) {
-       // assertTrue(Double.isNaN(Complex.NaN.abs()));
-        assertTrue(Double.isNaN(x.abs()));
-    }
-
-   
-    @Fuzz 
-    public void testAbsInfinite() {
-        Complex z = new Complex(inf, 0);
-        assertEquals(inf, z.abs(), 0);
-	z = new Complex(0, neginf);
-        assertEquals(inf, z.abs(), 0);
-        z = new Complex(inf, neginf);
-        assertEquals(inf, z.abs(), 0);
-    }
+//    @Fuzz 
+//    public void testAbsNaN(@From(ComplexGenerator.class)Complex x) {
+//       // assertTrue(Double.isNaN(Complex.NaN.abs()));
+//        assertTrue(Double.isNaN(x.abs()));
+//    }
+//
+//   
+//    @Fuzz 
+//    public void testAbsInfinite() {
+//        Complex z = new Complex(inf, 0);
+//        assertEquals(inf, z.abs(), 0);
+//	z = new Complex(0, neginf);
+//        assertEquals(inf, z.abs(), 0);
+//        z = new Complex(inf, neginf);
+//        assertEquals(inf, z.abs(), 0);
+//    }
 
     @Fuzz 
     public void testAdd(@From(ComplexGenerator.class) Complex x, @From(ComplexGenerator.class)Complex y) {
@@ -112,38 +122,109 @@ public class ComplexTest {
 	double temp_imaginary = x.getImaginary() + y.getImaginary();
 	Complex temp = new Complex(temp_real, temp_imaginary);
 	assertEquals(z,temp);
-    
+
     }
-    
-    @Fuzz
-    public void testAddNaN(@From(ComplexGenerator.class) Complex x) {
-        Complex z = x.add(Complex.NaN);
-        assertSame(Complex.NaN, z);
-        z = new Complex(1, nan);
-        Complex w = x.add(z);
-        assertSame(Complex.NaN, w);
+
+    //    @Fuzz
+    //    public void testAddNaN(@From(ComplexGenerator.class) Complex x) {
+    //        Complex z = x.add(Complex.NaN);
+    //        assertSame(Complex.NaN, z);
+    //        z = new Complex(1, nan);
+    //        Complex w = x.add(z);
+    //        assertSame(Complex.NaN, w);
+    //    }
+    //    
+    //    
+    //    @Fuzz
+    //    public void testAddInf(@From(ComplexGenerator.class)Complex x,@From(ComplexGenerator.class)Complex y) {
+    //        Complex z = new Complex(inf, y.getImaginary());
+    //        Complex w = x.add(z);
+    //        assertEquals(w.getImaginary(), x.getImaginary() + z.getImaginary());
+    //        assertEquals(inf, w.getReal());
+    //        Complex k = new Complex(neginf, y.getImaginary());
+    //        assertTrue(Double.isNaN(x.add(k).getReal()));
+    //    }
+
+
+    public void run(String testMethodName) {
+
+	try
+	{
+	    ProcessBuilder pb1 = new ProcessBuilder("/home/changhyeon/test/DefectRepairing_docker/jqf/scripts", "ComplexTest",testMethodName,testMethodName);
+	    Process p1 = pb1.start();
+	    ProcessBuilder pb2 = new ProcessBuilder("/home/changhyeon/test/DefectRepairing_docker/jqf/scripts", "ComplexTest",testMethodName,testMethodName);
+	    Process p2 = pb2.start();
+
+	}
+	catch(IOException e){
+	    e.printStackTrace();
+	}
     }
-    
-    
-    @Fuzz
-    public void testAddInf(@From(ComplexGenerator.class)Complex x,@From(ComplexGenerator.class)Complex y) {
-        Complex z = new Complex(inf, y.getImaginary());
-        Complex w = x.add(z);
-        assertEquals(w.getImaginary(), x.getImaginary() + z.getImaginary());
-        assertEquals(inf, w.getReal());
-        Complex k = new Complex(neginf, y.getImaginary());
-        assertTrue(Double.isNaN(x.add(k).getReal()));
+
+
+
+    public static void main(String[] args)
+    {
+//	try
+//	{
+//	    ProcessBuilder pb = new ProcessBuilder("/home/changhyeon/test/DefectRepairing_docker/jqf/bin/jqf-zest", "-c", 
+//		    ".:$(/home/changhyeon/test/DefectRepairing_docker/jqf/scripts/classpath.sh):./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar","ComplexTest");
+//	    Process p = pb.start();
+//	}
+//	catch(IOException e){
+//	    e.printStackTrace();
+//	}
+
+	String testClassName = "ComplexTest";
+	String outputDirectoryName = args.length > 2 ? args[2] : "fuzz-results";
+	File outputDirectory = new File(outputDirectoryName);
+	File[] seedFiles = null;
+
+	try {
+
+	    Class temp = Class.forName(testClassName);
+	    Method[] m = temp.getDeclaredMethods();
+
+	    for(int i=0; i<m.length-1;i++) {
+
+		String temp_method = m[i].toString();
+		temp_method = temp_method.substring(24);
+		String[] array = temp_method.split("\\(");
+		String testMethodName = array[0];
+		
+		run(testMethodName);
+
+//		try {
+//		    // Load the guidance
+//		    String title = testClassName+"#"+testMethodName;
+//		    ZestGuidance guidance = null;
+//
+//		    if (seedFiles == null) {
+//			guidance = new ZestGuidance(title, null, outputDirectory);
+//		    } else if (seedFiles.length == 1 && seedFiles[0].isDirectory()) {
+//			guidance = new ZestGuidance(title, null, outputDirectory, seedFiles[0]);
+//		    } else {
+//			guidance = new ZestGuidance(title, null, outputDirectory, seedFiles);
+//		    }
+//
+//		    // Run the Junit test
+//		    Result res = GuidedFuzzing.run(testClassName, testMethodName, guidance, System.out);
+//		    if (Boolean.getBoolean("jqf.logCoverage")) {
+//			System.out.println(String.format("Covered %d edges.", guidance.getTotalCoverage().getNonZeroCount()));
+//		    }
+//		    if (Boolean.getBoolean("jqf.ei.EXIT_ON_CRASH") && !res.wasSuccessful()) {
+//			System.exit(3);
+//		    }
+//
+//		} catch (Exception e) {
+//		    e.printStackTrace();
+//		    System.exit(2);
+//		}
+	    }
+	}
+	catch (ClassNotFoundException ex) {
+	    ex.printStackTrace();
+	}
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 

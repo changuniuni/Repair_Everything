@@ -1,0 +1,3 @@
+[submodule "DefectRepairing_docker/DefectRepairing_docker/daikon_new"]
+	path = DefectRepairing_docker/DefectRepairing_docker/daikon_new
+	url = https://github.com/changuniuni/DefectRepairing_docker.git

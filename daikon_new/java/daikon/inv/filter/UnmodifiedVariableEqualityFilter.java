@@ -17,7 +17,7 @@ public class UnmodifiedVariableEqualityFilter extends InvariantFilter {
   }
 
   /** Boolean. If true, UnmodifiedVariableEqualityFilter is initially turned on. */
-  public static boolean dkconfig_enabled = true;
+  public static boolean dkconfig_enabled = false;
 
   public UnmodifiedVariableEqualityFilter() {
     isOn = dkconfig_enabled;

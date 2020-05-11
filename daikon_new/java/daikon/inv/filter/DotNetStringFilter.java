@@ -28,7 +28,7 @@ import java.util.logging.Level;
 public class DotNetStringFilter extends InvariantFilter {
 
   /** Boolean. If true, DotNetStringFilter is initially turned on. See its Javadoc. */
-  public static boolean dkconfig_enabled = false;
+  public static boolean dkconfig_enabled = true;
 
   public DotNetStringFilter() {
     isOn = dkconfig_enabled;

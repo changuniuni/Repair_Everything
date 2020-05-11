@@ -1,8 +1,4 @@
 testConstructor
-testConstructorNaN
 testAbs
-testAbsNaN
-testAbsInfinite
 testAdd
-testAddNaN
-testAddInf
+exTest.main

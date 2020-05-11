@@ -9,7 +9,7 @@ public class UnjustifiedFilter extends InvariantFilter {
   }
 
   /** Boolean. If true, UnjustifiedFilter is initially turned on. */
-  public static boolean dkconfig_enabled = true;
+  public static boolean dkconfig_enabled = false;
 
   public UnjustifiedFilter() {
     isOn = dkconfig_enabled;

@@ -17,7 +17,7 @@ public class OnlyConstantVariablesFilter extends InvariantFilter {
   }
 
   /** Boolean. If true, OnlyConstantVariablesFilter is initially turned on. */
-  public static boolean dkconfig_enabled = true;
+  public static boolean dkconfig_enabled = false;
 
   public OnlyConstantVariablesFilter() {
     isOn = dkconfig_enabled;

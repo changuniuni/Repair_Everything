@@ -2,3 +2,6098 @@
 
 VarComparability
 implicit
+DECLARE
+ComplexTest:::CLASS
+
+DECLARE
+ComplexTest:::OBJECT
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+28
+this.inf
+double
+double
+29
+this.neginf
+double
+double
+96
+this.nan
+double
+double
+55
+this.pi
+double
+double
+112
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+97
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+2
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+7
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+27
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+98
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+101
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+100
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+35
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+39
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+37
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+30
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+34
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+33
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+32
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+102
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+106
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+113
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+114
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+117
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+116
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+118
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+122
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+56
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+57
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+60
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+59
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+61
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+65
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+
+
+DECLARE
+ComplexTest.ComplexTest():::ENTER
+
+DECLARE
+ComplexTest.ComplexTest():::EXIT71
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+28
+this.inf
+double
+double
+29
+this.neginf
+double
+double
+96
+this.nan
+double
+double
+55
+this.pi
+double
+double
+112
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+97
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+2
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+7
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+27
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+98
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+101
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+100
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+35
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+39
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+37
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+30
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+34
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+33
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+32
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+102
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+106
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+113
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+114
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+117
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+116
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+118
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+122
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+56
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+57
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+60
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+59
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+61
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+65
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+
+
+DECLARE
+ComplexTest.testConstructor(org.apache.commons.math3.complex.Complex):::ENTER
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+33
+this.inf
+double
+double
+34
+this.neginf
+double
+double
+101
+this.nan
+double
+double
+60
+this.pi
+double
+double
+117
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+102
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+7
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+27
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+32
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+28
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+30
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+29
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+106
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+112
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+114
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+55
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+57
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+35
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+39
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+37
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+96
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+98
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+118
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+122
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+123
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+127
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+126
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+125
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+61
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+65
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+arg0
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+2
+arg0.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+arg0.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+arg0.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+arg0.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+
+DECLARE
+ComplexTest.testConstructor(org.apache.commons.math3.complex.Complex):::EXIT78
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+33
+this.inf
+double
+double
+34
+this.neginf
+double
+double
+101
+this.nan
+double
+double
+60
+this.pi
+double
+double
+117
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+102
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+7
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+27
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+32
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+28
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+30
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+29
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+106
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+112
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+114
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+55
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+57
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+35
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+39
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+37
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+96
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+98
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+118
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+122
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+123
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+127
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+126
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+125
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+61
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+65
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+arg0
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+2
+arg0.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+arg0.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+arg0.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+arg0.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+
+
+DECLARE
+ComplexTest.testAbs(org.apache.commons.math3.complex.Complex):::ENTER
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+33
+this.inf
+double
+double
+34
+this.neginf
+double
+double
+101
+this.nan
+double
+double
+60
+this.pi
+double
+double
+117
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+102
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+7
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+27
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+32
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+28
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+30
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+29
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+106
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+112
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+114
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+55
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+57
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+35
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+39
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+37
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+96
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+98
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+118
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+122
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+123
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+127
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+126
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+125
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+61
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+65
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+arg0
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+2
+arg0.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+arg0.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+arg0.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+arg0.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+
+DECLARE
+ComplexTest.testAbs(org.apache.commons.math3.complex.Complex):::EXIT99
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+33
+this.inf
+double
+double
+34
+this.neginf
+double
+double
+101
+this.nan
+double
+double
+60
+this.pi
+double
+double
+117
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+102
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+7
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+27
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+32
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+28
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+30
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+29
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+106
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+112
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+114
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+55
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+57
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+35
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+39
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+37
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+96
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+98
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+118
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+122
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+123
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+127
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+126
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+125
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+61
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+65
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+arg0
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+2
+arg0.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+arg0.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+arg0.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+arg0.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+
+
+DECLARE
+ComplexTest.testAdd(org.apache.commons.math3.complex.Complex, org.apache.commons.math3.complex.Complex):::ENTER
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+38
+this.inf
+double
+double
+39
+this.neginf
+double
+double
+106
+this.nan
+double
+double
+65
+this.pi
+double
+double
+122
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+27
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+32
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+37
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+28
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+30
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+29
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+33
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+35
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+34
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+117
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+118
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+121
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+119
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+55
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+57
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+60
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+61
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+64
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+62
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+101
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+102
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+105
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+103
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+96
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+98
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+112
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+114
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+123
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+127
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+126
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+125
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+128
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+129
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+132
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+131
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+130
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+arg0
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+2
+arg0.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+arg0.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+arg0.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+arg0.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+arg1
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+7
+arg1.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+arg1.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+arg1.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+arg1.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+
+DECLARE
+ComplexTest.testAdd(org.apache.commons.math3.complex.Complex, org.apache.commons.math3.complex.Complex):::EXIT126
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+38
+this.inf
+double
+double
+39
+this.neginf
+double
+double
+106
+this.nan
+double
+double
+65
+this.pi
+double
+double
+122
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+107
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+12
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+22
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+17
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+27
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+32
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+37
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+13
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+16
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+14
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+23
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+26
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+24
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+18
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+21
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+19
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+28
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+31
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+30
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+29
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+33
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+35
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+34
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+111
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+109
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+117
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+118
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+121
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+120
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+119
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+55
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+58
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+57
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+60
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+61
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+64
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+63
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+62
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+45
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+49
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+47
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+50
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+54
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+52
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+40
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+44
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+42
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+81
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+85
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+83
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+101
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+102
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+105
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+104
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+103
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+96
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+99
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+98
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+86
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+90
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+88
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+91
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+95
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+93
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+112
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+115
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+114
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+123
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+127
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+126
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+125
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+128
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+129
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+132
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+131
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+130
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+66
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+70
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+68
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+71
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+75
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+73
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+76
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+80
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+78
+arg0
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+2
+arg0.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+3
+arg0.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+6
+arg0.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+arg0.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+4
+arg1
+org.apache.commons.math3.complex.Complex # isParam=true
+hashcode
+7
+arg1.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+8
+arg1.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+11
+arg1.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+arg1.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+9
+
+
+DECLARE
+ComplexTest.main(java.lang.String[]):::ENTER
+arg0
+java.lang.String[] # isParam=true
+hashcode
+2
+arg0.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+arg0[..]
+java.lang.String[]
+hashcode[]
+3[5]
+arg0[..].toString
+java.lang.String[]
+java.lang.String[]
+4[6]
+
+DECLARE
+ComplexTest.main(java.lang.String[]):::EXIT207
+arg0
+java.lang.String[] # isParam=true
+hashcode
+2
+arg0.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+arg0[..]
+java.lang.String[]
+hashcode[]
+3[5]
+arg0[..].toString
+java.lang.String[]
+java.lang.String[]
+4[6]
+
+
+DECLARE
+ComplexTest.equals(java.lang.Object):::ENTER
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+29
+this.inf
+double
+double
+30
+this.neginf
+double
+double
+97
+this.nan
+double
+double
+56
+this.pi
+double
+double
+113
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+98
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+3
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+13
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+8
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+18
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+23
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+28
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+4
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+7
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+6
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+14
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+17
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+16
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+9
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+12
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+11
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+19
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+22
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+21
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+24
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+27
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+26
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+99
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+102
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+101
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+100
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+108
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+109
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+112
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+111
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+46
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+47
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+50
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+49
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+51
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+52
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+55
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+54
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+36
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+37
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+40
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+39
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+41
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+42
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+45
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+44
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+31
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+32
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+35
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+34
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+33
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+72
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+73
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+76
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+75
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+92
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+93
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+96
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+95
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+87
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+88
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+91
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+90
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+77
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+78
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+81
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+80
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+82
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+83
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+86
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+85
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+103
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+104
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+107
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+106
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+114
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+115
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+118
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+117
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+116
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+119
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+120
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+123
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+122
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+57
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+58
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+61
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+60
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+59
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+62
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+63
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+66
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+65
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+67
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+68
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+71
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+70
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+ComplexTest.equals(java.lang.Object):::EXIT1
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+30
+this.inf
+double
+double
+31
+this.neginf
+double
+double
+98
+this.nan
+double
+double
+57
+this.pi
+double
+double
+114
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+99
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+3
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+13
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+8
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+18
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+23
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+28
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+4
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+7
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+6
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+14
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+17
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+16
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+9
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+12
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+11
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+19
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+22
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+21
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+24
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+27
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+26
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+102
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+101
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+109
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+110
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+112
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+111
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+47
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+48
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+50
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+49
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+52
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+53
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+55
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+54
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+37
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+38
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+40
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+39
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+42
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+43
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+45
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+44
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+32
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+33
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+35
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+34
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+73
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+74
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+76
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+75
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+93
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+94
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+96
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+95
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+88
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+89
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+91
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+90
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+78
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+79
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+81
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+80
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+83
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+84
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+86
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+85
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+104
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+105
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+107
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+106
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+115
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+118
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+117
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+120
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+121
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+123
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+122
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+58
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+61
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+60
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+63
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+64
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+66
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+65
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+68
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+69
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+71
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+70
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+29
+
+
+DECLARE
+ComplexTest.equals_dcomp_instrumented(java.lang.Object):::ENTER
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+29
+this.inf
+double
+double
+30
+this.neginf
+double
+double
+97
+this.nan
+double
+double
+56
+this.pi
+double
+double
+113
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+98
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+3
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+13
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+8
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+18
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+23
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+28
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+4
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+7
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+6
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+14
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+17
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+16
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+9
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+12
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+11
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+19
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+22
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+21
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+24
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+27
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+26
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+99
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+102
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+101
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+100
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+108
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+109
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+112
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+111
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+110
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+46
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+47
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+50
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+49
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+48
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+51
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+52
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+55
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+54
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+53
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+36
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+37
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+40
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+39
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+38
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+41
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+42
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+45
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+44
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+43
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+31
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+32
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+35
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+34
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+33
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+72
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+73
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+76
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+75
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+74
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+92
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+93
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+96
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+95
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+94
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+87
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+88
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+91
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+90
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+89
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+77
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+78
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+81
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+80
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+79
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+82
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+83
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+86
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+85
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+84
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+103
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+104
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+107
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+106
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+105
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+114
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+115
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+118
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+117
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+116
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+119
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+120
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+123
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+122
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+121
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+57
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+58
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+61
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+60
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+59
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+62
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+63
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+66
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+65
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+64
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+67
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+68
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+71
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+70
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+69
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+ComplexTest.equals_dcomp_instrumented(java.lang.Object):::EXIT1
+this
+ComplexTest # isNonNull=true, isParam=true
+hashcode
+30
+this.inf
+double
+double
+31
+this.neginf
+double
+double
+98
+this.nan
+double
+double
+57
+this.pi
+double
+double
+114
+this.oneInf
+org.apache.commons.math3.complex.Complex
+hashcode
+99
+org.apache.commons.math3.complex.Complex.I
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+3
+org.apache.commons.math3.complex.Complex.NaN
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+13
+org.apache.commons.math3.complex.Complex.INF
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+8
+org.apache.commons.math3.complex.Complex.ONE
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+18
+org.apache.commons.math3.complex.Complex.ZERO
+org.apache.commons.math3.complex.Complex # declaringClassPackageName=org.apache.commons.math3.complex
+hashcode
+23
+org.apache.commons.math3.complex.Complex.serialVersionUID
+long # declaringClassPackageName=org.apache.commons.math3.complex
+int
+28
+org.apache.commons.math3.complex.Complex.I.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+4
+org.apache.commons.math3.complex.Complex.I.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+7
+org.apache.commons.math3.complex.Complex.I.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+6
+org.apache.commons.math3.complex.Complex.I.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+5
+org.apache.commons.math3.complex.Complex.NaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+14
+org.apache.commons.math3.complex.Complex.NaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+17
+org.apache.commons.math3.complex.Complex.NaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+16
+org.apache.commons.math3.complex.Complex.NaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+15
+org.apache.commons.math3.complex.Complex.INF.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+9
+org.apache.commons.math3.complex.Complex.INF.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+12
+org.apache.commons.math3.complex.Complex.INF.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+11
+org.apache.commons.math3.complex.Complex.INF.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+10
+org.apache.commons.math3.complex.Complex.ONE.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+19
+org.apache.commons.math3.complex.Complex.ONE.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+22
+org.apache.commons.math3.complex.Complex.ONE.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+21
+org.apache.commons.math3.complex.Complex.ONE.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+20
+org.apache.commons.math3.complex.Complex.ZERO.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+24
+org.apache.commons.math3.complex.Complex.ZERO.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+27
+org.apache.commons.math3.complex.Complex.ZERO.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+26
+org.apache.commons.math3.complex.Complex.ZERO.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+25
+this.oneInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+100
+this.oneInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+103
+this.oneInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+102
+this.oneInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+101
+this.oneNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+109
+this.oneNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+110
+this.oneNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+113
+this.oneNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+112
+this.oneNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+111
+this.infOne
+org.apache.commons.math3.complex.Complex
+hashcode
+47
+this.infOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+48
+this.infOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+51
+this.infOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+50
+this.infOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+49
+this.infZero
+org.apache.commons.math3.complex.Complex
+hashcode
+52
+this.infZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+53
+this.infZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+56
+this.infZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+55
+this.infZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+54
+this.infNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+37
+this.infNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+38
+this.infNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+41
+this.infNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+40
+this.infNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+39
+this.infNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+42
+this.infNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+43
+this.infNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+46
+this.infNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+45
+this.infNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+44
+this.infInf
+org.apache.commons.math3.complex.Complex
+hashcode
+32
+this.infInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+33
+this.infInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+36
+this.infInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+35
+this.infInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+34
+this.negInfInf
+org.apache.commons.math3.complex.Complex
+hashcode
+73
+this.negInfInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+74
+this.negInfInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+77
+this.negInfInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+76
+this.negInfInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+75
+this.negInfZero
+org.apache.commons.math3.complex.Complex
+hashcode
+93
+this.negInfZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+94
+this.negInfZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+97
+this.negInfZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+96
+this.negInfZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+95
+this.negInfOne
+org.apache.commons.math3.complex.Complex
+hashcode
+88
+this.negInfOne.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+89
+this.negInfOne.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+92
+this.negInfOne.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+91
+this.negInfOne.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+90
+this.negInfNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+78
+this.negInfNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+79
+this.negInfNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+82
+this.negInfNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+81
+this.negInfNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+80
+this.negInfNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+83
+this.negInfNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+84
+this.negInfNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+87
+this.negInfNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+86
+this.negInfNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+85
+this.oneNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+104
+this.oneNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+105
+this.oneNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+108
+this.oneNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+107
+this.oneNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+106
+this.zeroInf
+org.apache.commons.math3.complex.Complex
+hashcode
+115
+this.zeroInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+116
+this.zeroInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+119
+this.zeroInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+118
+this.zeroInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+117
+this.zeroNaN
+org.apache.commons.math3.complex.Complex
+hashcode
+120
+this.zeroNaN.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+121
+this.zeroNaN.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+124
+this.zeroNaN.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+123
+this.zeroNaN.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+122
+this.nanInf
+org.apache.commons.math3.complex.Complex
+hashcode
+58
+this.nanInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+59
+this.nanInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+62
+this.nanInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+61
+this.nanInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+60
+this.nanNegInf
+org.apache.commons.math3.complex.Complex
+hashcode
+63
+this.nanNegInf.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+64
+this.nanNegInf.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+67
+this.nanNegInf.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+66
+this.nanNegInf.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+65
+this.nanZero
+org.apache.commons.math3.complex.Complex
+hashcode
+68
+this.nanZero.imaginary
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+69
+this.nanZero.real
+double # declaringClassPackageName=org.apache.commons.math3.complex
+double
+72
+this.nanZero.isNaN
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+71
+this.nanZero.isInfinite
+boolean # declaringClassPackageName=org.apache.commons.math3.complex
+boolean
+70
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+29
+

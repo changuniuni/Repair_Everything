@@ -15,7 +15,7 @@ public class DerivedParameterFilter extends InvariantFilter {
   }
 
   /** Boolean. If true, DerivedParameterFilter is initially turned on. */
-  public static boolean dkconfig_enabled = true;
+  public static boolean dkconfig_enabled = false;
 
   public DerivedParameterFilter() {
     isOn = dkconfig_enabled;

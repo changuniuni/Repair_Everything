@@ -11,7 +11,7 @@ public class ObviousFilter extends InvariantFilter {
   }
 
   /** Boolean. If true, ObviousFilter is initially turned on. */
-  public static boolean dkconfig_enabled = true;
+  public static boolean dkconfig_enabled = false;
 
   public ObviousFilter() {
     isOn = dkconfig_enabled;

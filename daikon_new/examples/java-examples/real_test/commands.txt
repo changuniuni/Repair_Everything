@@ -1,6 +1,14 @@
 javac -cp .:$(/home/changhyeon/test/DefectRepairing_docker/jqf/scripts/classpath.sh):./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar ComplexTest.java ComplexGenerator.java
+/home/changhyeon/test/DefectRepairing_docker/jqf/scripts
 
 
 /home/changhyeon/test/DefectRepairing_docker/jqf/bin/jqf-zest -c .:$(/home/changhyeon/test/DefectRepairing_docker/jqf/scripts/classpath.sh):./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar ComplexTest
  
+java -cp .:$DAIKONDIR/daikon.jar:$(/home/changhyeon/test/DefectRepairing_docker/jqf/scripts/classpath.sh):./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar daikon.DynComp ComplexTest
+ 
+java -cp .:/home/changhyeon/test/daikon_new/daikon.jar:./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar daikon.Chicory --daikon --comparability-file=ComplexTest.decls-DynComp ComplexTest
 
+
+
+java -cp .:$DAIKONDIR/daikon.jar:$(/home/changhyeon/test/DefectRepairing_docker/jqf/scripts/classpath.sh):./commons-math3-3.6.1.jar:./commons-math3-3.6.1-tools.jar daikon.Daikon ComplexTest.dtrace.gz
+ 

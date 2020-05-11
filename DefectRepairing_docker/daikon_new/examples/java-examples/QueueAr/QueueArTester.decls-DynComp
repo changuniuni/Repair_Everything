@@ -1,0 +1,2353 @@
+// Declaration file written by daikon.dcomp
+
+VarComparability
+implicit
+DECLARE
+DataStructures.QueueArTester:::CLASS
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+DECLARE
+DataStructures.QueueArTester:::OBJECT
+this
+DataStructures.QueueArTester # isNonNull=true, isParam=true
+hashcode
+7
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+
+DECLARE
+DataStructures.QueueArTester.QueueArTester():::ENTER
+
+DECLARE
+DataStructures.QueueArTester.QueueArTester():::EXIT3
+this
+DataStructures.QueueArTester # isNonNull=true, isParam=true
+hashcode
+7
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+
+DECLARE
+DataStructures.QueueArTester.doNew(int):::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+size
+int # isParam=true
+int
+3
+
+DECLARE
+DataStructures.QueueArTester.doNew(int):::EXIT10
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+size
+int # isParam=true
+int
+3
+
+
+DECLARE
+DataStructures.QueueArTester.observe():::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+DECLARE
+DataStructures.QueueArTester.observe():::EXIT16
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+
+DECLARE
+DataStructures.QueueArTester.makeEmpty():::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+DECLARE
+DataStructures.QueueArTester.makeEmpty():::EXIT21
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+
+DECLARE
+DataStructures.QueueArTester.enqdeq():::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+DECLARE
+DataStructures.QueueArTester.enqdeq():::EXIT25
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+
+DECLARE
+DataStructures.QueueArTester.dequeue():::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+DECLARE
+DataStructures.QueueArTester.dequeue():::EXIT30
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+
+DECLARE
+DataStructures.QueueArTester.enqueue():::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+DECLARE
+DataStructures.QueueArTester.enqueue():::EXIT37
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+
+
+DECLARE
+DataStructures.QueueArTester.fillAndEmpty(int):::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+n
+int # isParam=true
+int
+3
+
+DECLARE
+DataStructures.QueueArTester.fillAndEmpty(int):::EXIT44
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+n
+int # isParam=true
+int
+3
+
+
+DECLARE
+DataStructures.QueueArTester.walkAround(int):::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+n
+int # isParam=true
+int
+3
+
+DECLARE
+DataStructures.QueueArTester.walkAround(int):::EXIT51
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+n
+int # isParam=true
+int
+3
+
+
+DECLARE
+DataStructures.QueueArTester.variedMakeEmpty(int):::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+n
+int # isParam=true
+int
+3
+
+DECLARE
+DataStructures.QueueArTester.variedMakeEmpty(int):::EXIT63
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+n
+int # isParam=true
+int
+3
+
+
+DECLARE
+DataStructures.QueueArTester.main(java.lang.String[]):::ENTER
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+args
+java.lang.String[] # isParam=true
+hashcode
+7
+args.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+args[..]
+java.lang.String[]
+hashcode[]
+8[10]
+args[..].toString
+java.lang.String[]
+java.lang.String[]
+9[11]
+
+DECLARE
+DataStructures.QueueArTester.main(java.lang.String[]):::EXIT77
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+args
+java.lang.String[] # isParam=true
+hashcode
+7
+args.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+args[..]
+java.lang.String[]
+hashcode[]
+8[10]
+args[..].toString
+java.lang.String[]
+java.lang.String[]
+9[11]
+
+
+DECLARE
+DataStructures.QueueArTester.equals(java.lang.Object):::ENTER
+this
+DataStructures.QueueArTester # isNonNull=true, isParam=true
+hashcode
+8
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+obj
+java.lang.Object # isParam=true
+hashcode
+7
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.QueueArTester.equals(java.lang.Object):::EXIT1
+this
+DataStructures.QueueArTester # isNonNull=true, isParam=true
+hashcode
+9
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+obj
+java.lang.Object # isParam=true
+hashcode
+7
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+8
+
+
+DECLARE
+DataStructures.QueueArTester.equals_dcomp_instrumented(java.lang.Object):::ENTER
+this
+DataStructures.QueueArTester # isNonNull=true, isParam=true
+hashcode
+8
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+obj
+java.lang.Object # isParam=true
+hashcode
+7
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.QueueArTester.equals_dcomp_instrumented(java.lang.Object):::EXIT1
+this
+DataStructures.QueueArTester # isNonNull=true, isParam=true
+hashcode
+9
+DataStructures.QueueArTester.q
+DataStructures.QueueAr # declaringClassPackageName=DataStructures
+hashcode
+2
+DataStructures.QueueArTester.q.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+DataStructures.QueueArTester.q.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+DataStructures.QueueArTester.q.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+DataStructures.QueueArTester.q.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+DataStructures.QueueArTester.q.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.front
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.q.back
+int # declaringClassPackageName=DataStructures
+int
+3
+DataStructures.QueueArTester.rnd
+java.util.Random # declaringClassPackageName=DataStructures
+hashcode
+6
+obj
+java.lang.Object # isParam=true
+hashcode
+7
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+8
+
+DECLARE
+DataStructures.QueueAr:::CLASS
+
+DECLARE
+DataStructures.QueueAr:::OBJECT
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+
+DECLARE
+DataStructures.QueueAr.QueueAr(int):::ENTER
+capacity
+int # isParam=true
+int
+2
+
+DECLARE
+DataStructures.QueueAr.QueueAr(int):::EXIT36
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+4
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+3
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[2]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[2]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+2
+this.front
+int # declaringClassPackageName=DataStructures
+int
+2
+this.back
+int # declaringClassPackageName=DataStructures
+int
+2
+capacity
+int # isParam=true
+int
+2
+
+
+DECLARE
+DataStructures.QueueAr.isEmpty():::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+DECLARE
+DataStructures.QueueAr.isEmpty():::EXIT44
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+6[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+return
+boolean
+boolean
+2
+
+
+DECLARE
+DataStructures.QueueAr.isFull():::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+DECLARE
+DataStructures.QueueAr.isFull():::EXIT53
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+6[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+return
+boolean
+boolean
+2
+
+
+DECLARE
+DataStructures.QueueAr.makeEmpty():::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+DECLARE
+DataStructures.QueueAr.makeEmpty():::EXIT65
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+
+DECLARE
+DataStructures.QueueAr.getFront():::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+DECLARE
+DataStructures.QueueAr.getFront():::EXIT75
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+2[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+return
+java.lang.Object
+hashcode
+2
+return.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.QueueAr.getFront():::EXIT76
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+2[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+return
+java.lang.Object
+hashcode
+2
+return.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+
+DECLARE
+DataStructures.QueueAr.dequeue():::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+DECLARE
+DataStructures.QueueAr.dequeue():::EXIT86
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+6[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+return
+java.lang.Object
+hashcode
+2
+return.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.QueueAr.dequeue():::EXIT93
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+6[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+return
+java.lang.Object
+hashcode
+2
+return.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+
+DECLARE
+DataStructures.QueueAr.enqueue(java.lang.Object):::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+x
+java.lang.Object # isParam=true
+hashcode
+5
+x.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.QueueAr.enqueue(java.lang.Object):::EXIT109
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+x
+java.lang.Object # isParam=true
+hashcode
+5
+x.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+
+DECLARE
+DataStructures.QueueAr.dequeueAll():::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+DECLARE
+DataStructures.QueueAr.dequeueAll():::EXIT116
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+2
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+4
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+5[3]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[3]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+3
+this.front
+int # declaringClassPackageName=DataStructures
+int
+3
+this.back
+int # declaringClassPackageName=DataStructures
+int
+3
+
+
+DECLARE
+DataStructures.QueueAr.equals(java.lang.Object):::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+6[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.QueueAr.equals(java.lang.Object):::EXIT1
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+4
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+6
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+7[5]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[5]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+5
+this.front
+int # declaringClassPackageName=DataStructures
+int
+5
+this.back
+int # declaringClassPackageName=DataStructures
+int
+5
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+3
+
+
+DECLARE
+DataStructures.QueueAr.equals_dcomp_instrumented(java.lang.Object):::ENTER
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+3
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+5
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+6[4]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[4]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+4
+this.front
+int # declaringClassPackageName=DataStructures
+int
+4
+this.back
+int # declaringClassPackageName=DataStructures
+int
+4
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.QueueAr.equals_dcomp_instrumented(java.lang.Object):::EXIT1
+this
+DataStructures.QueueAr # isNonNull=true, isParam=true
+hashcode
+4
+this.theArray
+java.lang.Object[] # declaringClassPackageName=DataStructures
+hashcode
+6
+this.theArray.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+this.theArray[..]
+java.lang.Object[]
+hashcode[]
+7[5]
+this.theArray[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[5]
+this.currentSize
+int # declaringClassPackageName=DataStructures
+int
+5
+this.front
+int # declaringClassPackageName=DataStructures
+int
+5
+this.back
+int # declaringClassPackageName=DataStructures
+int
+5
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+3
+
+DECLARE
+DataStructures.MyInteger:::CLASS
+
+DECLARE
+DataStructures.MyInteger:::OBJECT
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+2
+this.value
+int # declaringClassPackageName=DataStructures
+int
+3
+
+
+DECLARE
+DataStructures.MyInteger.MyInteger():::ENTER
+
+DECLARE
+DataStructures.MyInteger.MyInteger():::EXIT17
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+2
+this.value
+int # declaringClassPackageName=DataStructures
+int
+3
+
+
+DECLARE
+DataStructures.MyInteger.MyInteger(int):::ENTER
+x
+int # isParam=true
+int
+2
+
+DECLARE
+DataStructures.MyInteger.MyInteger(int):::EXIT26
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+2
+this.value
+int # declaringClassPackageName=DataStructures
+int
+3
+x
+int # isParam=true
+int
+3
+
+
+DECLARE
+DataStructures.MyInteger.intValue():::ENTER
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+2
+this.value
+int # declaringClassPackageName=DataStructures
+int
+3
+
+DECLARE
+DataStructures.MyInteger.intValue():::EXIT34
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+3
+this.value
+int # declaringClassPackageName=DataStructures
+int
+4
+return
+int
+int
+2
+
+
+DECLARE
+DataStructures.MyInteger.compareTo(DataStructures.Comparable):::ENTER
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+3
+this.value
+int # declaringClassPackageName=DataStructures
+int
+4
+rhs
+DataStructures.Comparable # isParam=true
+hashcode
+2
+rhs.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.MyInteger.compareTo(DataStructures.Comparable):::EXIT57
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+4
+this.value
+int # declaringClassPackageName=DataStructures
+int
+5
+rhs
+DataStructures.Comparable # isParam=true
+hashcode
+3
+rhs.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+int
+int
+2
+
+
+DECLARE
+DataStructures.MyInteger.equals(java.lang.Object):::ENTER
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+3
+this.value
+int # declaringClassPackageName=DataStructures
+int
+4
+rhs
+java.lang.Object # isParam=true
+hashcode
+2
+rhs.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.MyInteger.equals(java.lang.Object):::EXIT70
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+4
+this.value
+int # declaringClassPackageName=DataStructures
+int
+5
+rhs
+java.lang.Object # isParam=true
+hashcode
+3
+rhs.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+2
+
+
+DECLARE
+DataStructures.MyInteger.hash(int):::ENTER
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+3
+this.value
+int # declaringClassPackageName=DataStructures
+int
+4
+tableSize
+int # isParam=true
+int
+2
+
+DECLARE
+DataStructures.MyInteger.hash(int):::EXIT81
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+4
+this.value
+int # declaringClassPackageName=DataStructures
+int
+5
+tableSize
+int # isParam=true
+int
+3
+return
+int
+int
+2
+
+DECLARE
+DataStructures.MyInteger.hash(int):::EXIT83
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+4
+this.value
+int # declaringClassPackageName=DataStructures
+int
+5
+tableSize
+int # isParam=true
+int
+3
+return
+int
+int
+2
+
+
+DECLARE
+DataStructures.MyInteger.equals_dcomp_instrumented(java.lang.Object):::ENTER
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+3
+this.value
+int # declaringClassPackageName=DataStructures
+int
+4
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+DataStructures.MyInteger.equals_dcomp_instrumented(java.lang.Object):::EXIT1
+this
+DataStructures.MyInteger # isNonNull=true, isParam=true
+hashcode
+4
+this.value
+int # declaringClassPackageName=DataStructures
+int
+5
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+3
+

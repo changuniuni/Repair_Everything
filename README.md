@@ -1,8 +1,9 @@
 # Repair Everything!
 
 ## Benchmark
-Correct/Incorrect patches presented by the ICSE 2018 paper 
-* "Identifying Patch Correctness in Test-Based Program Repair" Yingfei Xiong, Xinyuan Liu, Muhan Zeng, Lu Zhang, Gang Huang, ICSE 2018 [download](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8453152)
+Correct/Incorrect patches presented by the ICSE 2018 paper   
+* "Identifying Patch Correctness in Test-Based Program Repair" Yingfei Xiong, Xinyuan Liu, Muhan Zeng, Lu Zhang, Gang Huang, ICSE 2018 [[download]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8453152)
+
 ###
 
 <table>
@@ -152,7 +153,65 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>27</td>
     <td>0</td>
   </tr>
-  <tr style="border-top :1px solid">
+
+
+
+<tr>
+    <td>Closure</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>56</td>
+    <td>2</td>
+    <td>54</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>56</td>
+    <td>2</td>
+    <td>54</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+
+<tr>
+    <td>Mockito</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td>Total</td>
     <td>22</td>
     <td>5</td>
@@ -163,23 +222,21 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
     <td>29</td>
     <td>5</td>
     <td>24</td>
-    <td>40</td>
-    <td>0</td>
-    <td>40</td>
+    <td>98</td>
+    <td>3</td>
+    <td>95</td>
     <td>21</td>
     <td>15</td>
     <td>6</td>
     <td>9</td>
     <td>3</td>
     <td>6</td>
-    <td>139</td>
-    <td>29</td>
-    <td>110</td>
+    <td>197</td>
+    <td>32</td>
+    <td>165</td>
     <td>194</td>
     <td>194</td>
     <td>0</td>
-
-
   </tr>
 </table>
 

@@ -1,0 +1,87 @@
+#!/bin/bash
+
+# Figure out script absolute path
+pushd `dirname $0` > /dev/null
+BIN_DIR=`pwd`
+popd > /dev/null
+
+ROOT_DIR=`dirname $BIN_DIR`
+export ROOT_DIR
+CLASS_NAME=$3
+export CLASS_NAME
+
+
+find . -name "method_list.txt" -delete
+
+print_usage() {
+    echo "Usage: $0 [-c CLASSPATH] [-v] TEST_CLASS TEST_METHOD [OUT_DIR [SEED_FILES...]]"
+}
+
+invoke_zest_driver() {
+   
+    #gnome-terminal $ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.ZestDriver $CLASS_NAME $1 
+    $ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.ZestDriver $CLASS_NAME $1 $1 
+}
+
+export -f invoke_zest_driver
+
+while getopts "c:vt:" opt; do
+  case $opt in
+    /?)
+      echo "Invalid option: -$OPTARG" 
+      print_usage >&1
+      exit 1
+      ;;
+    c)
+      export CLASSPATH="$OPTARG"
+      ;;
+    v)
+      export JVM_OPTS="$JVM_OPTS -Djqf.logCoverage=true"
+      ;;
+    t)
+      export JVM_OPTS="$JVM_OPTS -Djqf.ei.TIMEOUT=$OPTARG"
+      ;;
+  esac
+done
+shift $((OPTIND-1))
+[ $# -lt 1 ] && echo "Dfz"
+
+# Check arguments
+if [ $# -lt 1 ]; then
+  echo $#
+  print_usage >&1
+  exit 1
+elif [ $# -eq 1 ]; then
+    $ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.java_reflection $CLASS_NAME
+    
+    mapfile -t methodArray < method_list.txt
+    #parallel invoke_zest_driver {} ::: ${methodArray[@]} 
+    #cat method_list.txt |gnome-terminal invoke_zest_driver {} 
+
+    for (( i=0; i<${#methodArray[@]}-1; i++ )); do
+	echo ${methodArray[i]}
+	invoke_zest_driver ${methodArray[i]} &
+    done
+
+    
+    #    cat method_list.txt | while read line
+#    do
+#      invoke_zest_driver $line &
+#    done       
+    #    for i in $LOOP_ITER
+#    do
+#	$ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.ZestDriver $CLASS_NAME ${methodArray[i]} &
+   #echo ${methodArray[@]}
+   #parallel invoke_zest_driver ::: ${methodArray[@]} 
+   #parallel invoke_zest_driver :::: 'method_list.txt'
+    #done
+    #$ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.ZestDriver $CLASS_NAME ${methodArray[1]}
+
+elif [ $# -eq 2 ]; then
+    $ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.ZestDriver $@
+fi
+
+#$ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.java_reflection $1
+
+# Run the Zest input driver
+#$ROOT_DIR/scripts/jqf-driver.sh edu.berkeley.cs.jqf.fuzz.ei.ZestDriver $@

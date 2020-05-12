@@ -247,23 +247,31 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
 Please delete this part when you complete this project   
 This will help you how to use Daikon and Zest.  
 
-* How to use Daikon  
+### * How to use Daikon  
 This is Daikon official documentation. Please refer this. [[download]](https://plse.cs.washington.edu/daikon/download/doc/daikon.pdf)  
-There are two 'daikon_new' directories. One at the root directory the other is at 'DefectRepairing_docker' directory.  
-I recommend you to use 'daikon_new' at root directory.  
-And there is a txt file called "commands.txt"  
-I summarize the commands to run daikon at this file.  
+There are two 'daikon_new' directories. One at the root directory the other is at 'DefectRepairing_docker' directory. I recommend you to use 'daikon_new' at root directory.    
+And there is a txt file called "commands.txt" I summarize the commands to run daikon at this file.  
 Working directoty is "daikon_new/examples/java-examples/real_test"  
 
 
-* How to use Zest  
+### * How to use Zest  
 This is Zest github link. If you want to know more about Zest or try tutorial of Zest, please refer this [link](https://github.com/rohanpadhye/jqf).
-
-
-
-
-
-
-
-
+In this directory, there is also 'commands.txt' file. There are some important file in Zest.  
 Working directory is "DefectRepairing_docker/commons-math/src/test/java/org/apache/commons/math3/complex_test/real_test"
+
+#### 1. jqf-zest  
+This file is located at 'DefectRepairing_docker/jqf/bin'.  
+This is shell script file that is the first file that is executed when Zest is executed, and Java reflection is used here.  
+
+#### 2. jqf-driver.sh    
+This file is located at 'DefectRepairing_docker/jqf/scripts'.  
+This file is executed after the first file is executed, but it seems that it is not a very important file because I have not fixed the code.   
+
+#### 3. ZestDriver.java   
+This file is located at 'DefectRepairing_docker/jqf/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei'.  
+This file is main driver file of Zest. So if you want to know how zest works, then this file can help you.  
+
+
+
+
+

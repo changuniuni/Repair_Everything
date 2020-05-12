@@ -243,4 +243,27 @@ Correct/Incorrect patches presented by the ICSE 2018 paper
 
 * P = Patches, C = Correct Patches, I = Incorrect Patches
 
+## For Mazba and Elkhan....   
+Please delete this part when you complete this project   
+This will help you how to use Daikon and Zest.  
 
+* How to use Daikon  
+This is Daikon official documentation. Please refer this. [[download]](https://plse.cs.washington.edu/daikon/download/doc/daikon.pdf)  
+There are two 'daikon_new' directories. One at the root directory the other is at 'DefectRepairing_docker' directory.  
+I recommend you to use 'daikon_new' at root directory.  
+And there is a txt file called "commands.txt"  
+I summarize the commands to run daikon at this file.  
+Working directoty is "daikon_new/examples/java-examples/real_test"  
+
+
+* How to use Zest  
+This is Zest github link. If you want to know more about Zest or try tutorial of Zest, please refer this [link](https://github.com/rohanpadhye/jqf).
+
+
+
+
+
+
+
+
+Working directory is "DefectRepairing_docker/commons-math/src/test/java/org/apache/commons/math3/complex_test/real_test"
